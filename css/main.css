@@ -1,11 +1,83 @@
+
+body {
+	background-color: #EEEEEE;
+}
+
+table {
+	text-align: center;
+	width: 70%;
+}
+
+table caption {
+	font-size: 1.7em;
+	font-weight: bold;
+	margin: 1em;
+}
+thead th {
+	font-weight: bold;
+}
 th {
 	border: 1px solid black;
 	border-radius: 4px;
 	border-spacing: 1px;
+	background-color: #B9C4D2;
+	font-weight: normal;
 }
 
 td {
 	border: 0.5px solid black;
 	border-radius: 4px;
 	border-spacing: 1px;
+}
+
+.horarios {
+	width: 5%;
+}
+.programa {
+	width: 18%;
+}
+
+.evento-organizacion {
+	background-color: #9B99C9;
+}
+
+.conferencia-magistral {
+	background-color: #C0C0C0;
+}
+
+.conferencia {
+	background-color: #E8E5FF;
+}
+
+.taller {
+	background-color: #9A99FF;
+
+}
+
+.platica-informal {
+	background-color: #CECDF7;
+}
+.tutorial {
+	background-color: #99CCFF;
+}
+
+.titulo-evento {
+	font-weight: bold;
+	display: block;
+
+}
+
+.exponente {
+	font-style: italic;
+	display: block;
+}
+
+.institucion {
+	font-style: italic;
+	display: block;
+}
+
+.categoria {
+	font-style: italic;
+	display: block;
 }

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -9,6 +8,10 @@
 <body>
 	<table>
 		<caption>Jueves 1º de Noviembre</caption>
+		<colgroup>
+			<col class="horarios" />
+			<col class="programa" span="5" />
+		</colgroup>
 		<thead>
 			<tr>
 				<th>Hora</th>
@@ -23,7 +26,11 @@
 		<tbody>
 			<tr>
 				<th>9:00</th>
-				<td colspan="5" rowspan="3">Celda</td>			
+				<td class="evento-organizacion" colspan="5" rowspan="3">
+					<span class="titulo-evento">Registro</span>
+					<span class="exponente">Festival de Software Libre</span>
+					<span class="categoria">Evento organización</span>
+				</td>			
 			</tr>
 			<tr>
 				<th>10:00</th>
@@ -33,46 +40,129 @@
 			</tr>
 			<tr>
 				<th>12:00</th>
-				<td colspan="5">Celda</td>			
+				<td class="conferencia-magistral" colspan="5">
+					<span class="titulo-evento">Inauguración / Conferencia de apertura</span>
+					<span class="exponente">John "maddog" Hall</span>
+					<span class="categoria">Conferencia magistral</span>
+				</td>			
 			</tr>
 			<tr>
 				<th>13:00</th>
-				<td colspan="5">Celda</td>			
+							
 			</tr>
 			<tr>
 				<th>14:00</th>
-				<td colspan="5">Celda</td>			
+				<td class="evento-organizacion" colspan="5">
+					<span class="titulo-evento">RECESO PARA COMIDA</span>
+					<span class="exponente">Festival de Software Libre</span>
+					<span class="categoria">Evento organización</span>
+				</td>			
 			</tr>
 			<tr>
 				<th>15:00</th>
-				<td>Celda</td>
-				<td>Celda</td>
-				<td>Celda</td>
-				<td>Celda</td>
-				<td rowspan="4"> Celda</td>
+				<td class="conferencia">
+					<span class="titulo-evento">La periodista y el sysadmin. Teconologías románticas para una sociedad informada</span>
+					<span class="exponente">José María Serralde Ruíz</span>
+					<span class="institucion"></span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="conferencia">
+					<span class="titulo-evento">Open Movie's, la libertad de crear y compartir cortometrajes.</span>
+					<span class="exponente">Claudia Teresa Hernández Asencio</span>
+					<span class="institucion">G-Blender</span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="conferencia">
+					<span class="titulo-evento">Cofeescript</span>
+					<span class="exponente">Mario Alberto Chávez Cárdenas</span>
+					<span class="institucion">Crowd Interactive</span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="conferencia">
+					<span class="titulo-evento">Web semantica y tecnicas de optimización en buscadores (SEO)</span>
+					<span class="exponente">Gabriel Saldaña</span>
+					<span class="institucion">Gabriel Saldaña Torres</span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="taller" rowspan="4"> 
+					<span class="titulo-evento">Taller de Linea de Comandos</span>
+					<span class="exponente">Gabriel Orozco Ruíz Velazco</span>
+					<span class="institucion">Grupo Linux de Occidente, A. C.</span>
+					<span class="categoria">Taller</span>
+				</td>
 			</tr>		
 			<tr>
 				<th>16:00</th>
-				<td>Celda</td>
-				<td>Celda</td>
-				<td>Celda</td>
-				<td rowspan="3">Celda</td>
+				<td class="conferencia">
+					<span class="titulo-evento">La rebelión de los duendes: Retrato de la comunidad Mediaglobin</span>
+					<span class="exponente">Juan Jacobo Nájera Valdez</span>
+					<span class="institucion"></span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="conferencia">
+					<span class="titulo-evento">Accelerating Development with Vagrant</span>
+					<span class="exponente">Geronimo Orozco</span>
+					<span class="institucion">Intel</span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="conferencia">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="taller" rowspan="3">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Taller</span>
+				</td>
 				
 			</tr>
 			<tr>
 				<th>17:00</th>
-				<td>Celda</td>
-				<td>Celda</td>
-				<td rowspan="2">Celda</td>			
+				<td class="platica-informal">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Platica Informal</span>
+				</td>
+				<td class="conferencia">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="tutorial" rowspan="2">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Tutorial</span>
+				</td>			
 			</tr>
 			<tr>
 				<th>18:00</th>
-				<td>Celda</td>
-				<td>Celda</td>			
+				<td class="conferencia">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Conferencia</span>
+				</td>
+				<td class="conferencia">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Conferencia</span>
+				</td>			
 			</tr>
 			<tr>
 				<th>19:00</th>
-				<td colspan="5">Celda</td>			
+				<td class="evento-organizacion" colspan="5">
+					<span class="titulo-evento"></span>
+					<span class="exponente"></span>
+					<span class="institucion"></span>
+					<span class="categoria">Evento organización</span>
+				</td>			
 			</tr>
 			
 			
